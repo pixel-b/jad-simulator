@@ -14,7 +14,7 @@ Known issues:
 - Damage audio is incorrect
 - Background is just black, it's possible to get the entire background if looped perfectly, but that's way out of the scope of this project.
 - Audio won't work on chrome until you start clicking buttons, it needs a "start button"
-- I set the "You lose" message to replace the score for some reason???
+- I set the "You lose" message to replace the score for some reason
 - Probably more things I'm just not thinking of
 
 If I decide to continue with this, I'm going to change the jad video to be a single file and jump around in it, as opposed to two that hide and unhide. This was a learning project, and I've learned so much doing it, so I guess it's a win? I'd hate to leave it like this forever, so I'd like to come back to it at some point. 
