@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LAYOUT */
+
+/* ELEMENTS */
+
+#game {
+  position: relative;
+}
+
+.score {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #c7365f;
+  margin-bottom: auto;
+}
+
+.rangedPrayer {
+  position: absolute;
+  height: 5.5rem;
+  left: 24px;
+  bottom: 130px;
+}
+
+.magePrayer {
+  position: absolute;
+  height: 5.5rem;
+  left: 24px;
+  bottom: 130px;
+}
+
+.still {
+  position: fixed;
+}
+
+.ranged {
+  position: relative;
+}
+
+.mage {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.menuMage {
+  position: absolute;
+  height: 10rem;
+  bottom: 330px;
+  left: 700px;
+}
+
+.menuRanged {
+  position: absolute;
+  height: 10rem;
+  bottom: 330px;
+  left: 780px;
+}
+
+.menuMageActive {
+  position: absolute;
+  height: 7rem;
+  bottom: 344px;
+  left: 708px;
+}
+
+.menuRangedActive {
+  position: absolute;
+  height: 7rem;
+  bottom: 345px;
+  left: 790px;
+}
+
+.score {
+  font-size: 8rem;
+  font-weight: 300;
+  color: #c7365f;
+}
+
+.damage {
+  position: relative;
+  height: 6rem;
+  left: 1px;
+  bottom: 110px;
+}
+
+.player--active {
+  background-color: rgb(53, 0, 0);
+  font-size: 3rem;
+  color: white;
+}
